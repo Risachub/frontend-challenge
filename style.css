@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+  background-color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1px solid black;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 2px black;
+}
+
+img{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.co{
+  background-color: hsl(47, 88%, 63%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 7px 25px;
+  max-width: 110px;
+}
+h3{
+  padding: 10px 12px;
+  font-style: normal;
+   
+
+}
+.align{
+  padding: 10px 25px;
+  color: hsl(0, 0%, 7%);
+  font-weight: 500px;
+}
+.arra{
+  padding: 10px 25px;
+  color: hsl(0, 0%, 42%);
+  font-weight: 500px;
+  font-size: 20px;
+}
+h1{
+  padding: 25px;
+  font-weight: 800px;
+  max-width: 400px;
+}
+
+h1:active {
+  color: hsl(47, 88%, 63%);
+}
+h1, h3, h4, .align, .arra:hover {
+  cursor: pointer;
+}
+.flex-container{
+  display: flex;
+  /* background-color: antiquewhite; */
+}
+
+.flex-container > div{
+  margin: 7px;
+  /* background-color: aquamarine; */
+}
+/* for desktop */
+@media screen and (max-width: 800px) {
+  .container, .co, section, .flex-container {
+    width: 100%;
+  }
+}
