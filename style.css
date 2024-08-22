@@ -4,19 +4,20 @@
 
 body{
   font-family: "Figtree", sans-serif;
-  font-size: 16px;
   background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
 }
 
 .container{
+  width: 500px;
   background-color: hsl(0, 0%, 100%);
   box-sizing: border-box;
   border-radius: 15px;
   border: 1px solid black;
-  max-width: 55%;
-  margin: auto;
-  margin-top: 60px;
-  margin-bottom: 50px;
   box-shadow: 10px 10px 2px black;
 }
 
@@ -24,7 +25,7 @@ img{
   width: 100%;
   box-sizing: border-box;
   border-radius: 30px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .co{
@@ -49,12 +50,13 @@ h3{
   padding: 10px 25px;
   color: hsl(0, 0%, 42%);
   font-weight: 500px;
-  font-size: 20px;
+  font-size: 16px;
 }
 h1{
-  padding: 25px;
+  padding: 10px 25px;
   font-weight: 800px;
   max-width: 400px;
+  font-size: 25px;
 }
 
 h1:active {
@@ -65,16 +67,11 @@ h1, h3, h4, .align, .arra:hover {
 }
 .flex-container{
   display: flex;
-  /* background-color: antiquewhite; */
+ 
 }
 
 .flex-container > div{
   margin: 7px;
-  /* background-color: aquamarine; */
+ 
 }
-/* for desktop */
-/* @media screen and (max-width: 800px) { */
-  /* .container, .co, section, .flex-container { */
-    /* width: 100%; */
-  /* } */
-/* } */
+
